@@ -1,0 +1,99 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #3d2b1f;
+  font-family: Georgia, serif;
+  color: #e5c04b;
+}
+
+.rooms-header {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rooms-game-title {
+  font-size: 36px;
+}
+
+.gear-icon {
+  width: 40px;
+  cursor: pointer;
+}
+
+.rooms-title {
+  text-align: center;
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+.rooms-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+
+.room-card {
+  background: #3a2918;
+  padding: 20px;
+  width: 260px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.room-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.room-name {
+  margin-top: 18px;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.room-btn {
+  display: block;
+  width: 90%;
+  margin: 20px auto 0 auto;
+  padding: 13px 0;
+  background: #d9b026;
+  color: black;
+  font-size: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.45);
+}
+
+.pause-btn {
+  font-size: 50px;
+  color: #d9b026;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.pause-btn,
+.pause-btn:link,
+.pause-btn:visited,
+.pause-btn:hover,
+.pause-btn:active {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.pause-btn {
+  border-bottom: 0 !important;
+}
+
+.pause-btn:hover {
+  opacity: 0.8;
+}

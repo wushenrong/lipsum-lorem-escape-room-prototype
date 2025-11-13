@@ -1,0 +1,96 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3d2b1f;
+  font-family: Georgia, serif;
+  color: #e5c04b;
+}
+
+.p1-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 40px;
+}
+
+.game-title {
+  font-size: 36px;
+}
+
+.pause-btn {
+  font-size: 50px;
+  color: #d9b026;
+  text-decoration: none !important;
+}
+
+.room-title {
+  text-align: center;
+  font-size: 42px;
+  margin-top: -10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.puzzle-panel {
+  width: 90%;
+  margin: 0 auto 60px auto;
+  background-color: #2d1f14;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.puzzle-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.puzzle-text p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.numbers {
+  margin-top: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.puzzle-input {
+  width: 90%;
+  margin-top: 25px;
+  padding: 14px;
+  background: #3d2b1f;
+  border: 2px solid #d9b026;
+  border-radius: 12px;
+  font-size: 22px;
+  color: #e5c04b;
+}
+
+.button-row {
+  margin-top: 25px;
+  display: flex;
+  gap: 25px;
+}
+
+.btn {
+  background: #d9b026;
+  padding: 12px 28px;
+  color: black;
+  font-size: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.puzzle-img {
+  width: 350px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 6px;
+}

@@ -1,0 +1,173 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3d2b1f;
+  font-family: Georgia, serif;
+  height: 100%;
+}
+
+.room-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 40px;
+}
+
+.room-game-title {
+  font-size: 36px;
+  color: #e5c04b;
+}
+
+.pause-btn {
+  font-size: 50px;
+  color: #d9b026;
+  cursor: pointer;
+}
+
+.room-name {
+  text-align: center;
+  font-size: 46px;
+  color: #e5c04b;
+  margin-top: -20px;
+  margin-bottom: 35px;
+}
+
+.room-panel {
+  width: 90%;
+  margin: 0 auto 60px auto;
+  background-color: #2C1E0F;
+  border: 2px solid #8b6a3a;
+  border-radius: 6px;
+  padding: 35px;
+}
+
+.room-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.room-image {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.room-description {
+  flex: 1;
+  min-width: 300px;
+  font-size: 22px;
+  color: #e5c04b;
+  line-height: 1.5;
+}
+
+.room-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 45px;
+}
+
+.room-btn {
+  display: inline-block;
+  width: 200px;
+  padding: 18px;
+  background: #d9b026;
+  color: black;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.rooms-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.rooms-title {
+  font-size: 48px;
+  color: #e5c04b;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Georgia, serif;
+}
+
+.rooms-subtitle {
+  font-size: 24px;
+  color: #e5c04b;
+  margin-bottom: 40px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+}
+
+.logout-btn {
+  background: #d9b026;
+  padding: 10px 22px;
+  border-radius: 6px;
+  color: black;
+  font-size: 22px;
+  font-family: Georgia;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+
+.settings-icon {
+  width: 40px;
+  cursor: pointer;
+}
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.room-card {
+  background: #3a2918;
+  border-radius: 20px;
+  padding: 20px;
+  color: #e5c04b;
+  text-align: center;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.room-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.room-name {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.play-btn {
+  background: #d9b026;
+  padding: 14px 30px;
+  color: black;
+  font-size: 22px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+
+.a {
+  text-decoration: none;
+  color: #d9b026
+}
